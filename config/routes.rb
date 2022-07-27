@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  get 'tests/top'
   get 'posts/index'
   get 'posts/show'
   get 'homes/top'
